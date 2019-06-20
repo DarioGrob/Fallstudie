@@ -7,6 +7,6 @@
   <i class="fas fa-user" style="font-size:40pt"></i>
   <br />
   <br />
-  <span th:text="${customer != null} ? 'Firstname: ' + ${customer.forename} : 'Customer not found!'"></span><br />
-  <span th:text="${customer != null} ? 'Name: ' + ${customer.name}"></span>
+  <span id="Prename" th:text="${customer != null} ? 'Firstname: ' + ${customer.forename} : 'Customer not found!'"></span><br />
+  <span id="Name" th:text="${customer != null} ? 'Name: ' + ${customer.name}"></span>
 </body>
